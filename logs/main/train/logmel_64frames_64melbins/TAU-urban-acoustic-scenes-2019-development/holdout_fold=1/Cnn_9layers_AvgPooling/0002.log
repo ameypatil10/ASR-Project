@@ -5,3 +5,6 @@ Sat, 19 Oct 2019 14:04:04 data_generator.py[line:108] INFO Training audio num: 9
 Sat, 19 Oct 2019 14:04:04 data_generator.py[line:109] INFO Validation audio num: 4185
 Sat, 19 Oct 2019 14:04:04 main.py[line:157] INFO ------------------------------------
 Sat, 19 Oct 2019 14:04:04 main.py[line:158] INFO Iteration: 0
+Sat, 19 Oct 2019 14:51:08 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 14:51:08 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 14:51:08 evaluate.py[line:95] INFO     Average ccuracy: 0.096

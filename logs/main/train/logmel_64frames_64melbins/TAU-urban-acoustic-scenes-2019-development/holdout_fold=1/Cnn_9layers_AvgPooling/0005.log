@@ -1,0 +1,2 @@
+Sat, 19 Oct 2019 16:03:37 main.py[line:102] INFO Namespace(batch_size=32, cuda=True, data_type='development', dataset_dir='../data/', filename='main', holdout_fold='1', mini_data=False, mode='train', model_type='Cnn_9layers_AvgPooling', subtask='a', workspace='../')
+Sat, 19 Oct 2019 16:03:37 main.py[line:105] INFO Using GPU.

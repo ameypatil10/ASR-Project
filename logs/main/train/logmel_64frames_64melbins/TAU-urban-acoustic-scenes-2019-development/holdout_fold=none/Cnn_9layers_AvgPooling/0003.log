@@ -1,0 +1,73 @@
+Sat, 19 Oct 2019 16:32:31 main.py[line:102] INFO Namespace(batch_size=32, cuda=True, data_type='development', dataset_dir='/data1/amey/ASR-data/', filename='main', holdout_fold='none', mini_data=False, mode='train', model_type='Cnn_9layers_AvgPooling', subtask='a', workspace='../')
+Sat, 19 Oct 2019 16:32:31 main.py[line:105] INFO Using GPU.
+Sat, 19 Oct 2019 16:32:40 data_generator.py[line:107] INFO Load data time: 5.712 s
+Sat, 19 Oct 2019 16:32:40 data_generator.py[line:108] INFO Training audio num: 13370
+Sat, 19 Oct 2019 16:32:40 data_generator.py[line:109] INFO Validation audio num: 0
+Sat, 19 Oct 2019 16:32:40 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:32:40 main.py[line:158] INFO Iteration: 0
+Sat, 19 Oct 2019 16:33:05 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:33:05 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:33:05 evaluate.py[line:95] INFO     Average ccuracy: 0.100
+Sat, 19 Oct 2019 16:33:05 main.py[line:185] INFO Train time: 0.004 s, validate time: 24.387 s
+Sat, 19 Oct 2019 16:33:42 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:33:42 main.py[line:158] INFO Iteration: 200
+Sat, 19 Oct 2019 16:34:05 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:34:05 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:34:05 evaluate.py[line:95] INFO     Average ccuracy: 0.493
+Sat, 19 Oct 2019 16:34:05 main.py[line:185] INFO Train time: 37.307 s, validate time: 23.184 s
+Sat, 19 Oct 2019 16:34:42 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:34:42 main.py[line:158] INFO Iteration: 400
+Sat, 19 Oct 2019 16:35:06 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:35:06 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:35:06 evaluate.py[line:95] INFO     Average ccuracy: 0.552
+Sat, 19 Oct 2019 16:35:06 main.py[line:185] INFO Train time: 36.955 s, validate time: 23.301 s
+Sat, 19 Oct 2019 16:35:43 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:35:43 main.py[line:158] INFO Iteration: 600
+Sat, 19 Oct 2019 16:36:06 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:36:06 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:36:06 evaluate.py[line:95] INFO     Average ccuracy: 0.621
+Sat, 19 Oct 2019 16:36:06 main.py[line:185] INFO Train time: 37.103 s, validate time: 23.060 s
+Sat, 19 Oct 2019 16:36:43 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:36:43 main.py[line:158] INFO Iteration: 800
+Sat, 19 Oct 2019 16:37:06 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:37:06 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:37:06 evaluate.py[line:95] INFO     Average ccuracy: 0.660
+Sat, 19 Oct 2019 16:37:06 main.py[line:185] INFO Train time: 37.286 s, validate time: 23.421 s
+Sat, 19 Oct 2019 16:37:44 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:37:44 main.py[line:158] INFO Iteration: 1000
+Sat, 19 Oct 2019 16:38:07 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:38:07 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:38:07 evaluate.py[line:95] INFO     Average ccuracy: 0.736
+Sat, 19 Oct 2019 16:38:07 main.py[line:185] INFO Train time: 37.149 s, validate time: 23.255 s
+Sat, 19 Oct 2019 16:38:07 main.py[line:200] INFO Model saved to ../checkpoints/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=none/Cnn_9layers_AvgPooling/1000_iterations.pth
+Sat, 19 Oct 2019 16:38:44 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:38:44 main.py[line:158] INFO Iteration: 1200
+Sat, 19 Oct 2019 16:39:07 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:39:07 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:39:07 evaluate.py[line:95] INFO     Average ccuracy: 0.744
+Sat, 19 Oct 2019 16:39:07 main.py[line:185] INFO Train time: 37.435 s, validate time: 23.212 s
+Sat, 19 Oct 2019 16:39:44 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:39:44 main.py[line:158] INFO Iteration: 1400
+Sat, 19 Oct 2019 16:40:08 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:40:08 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:40:08 evaluate.py[line:95] INFO     Average ccuracy: 0.750
+Sat, 19 Oct 2019 16:40:08 main.py[line:185] INFO Train time: 36.890 s, validate time: 23.319 s
+Sat, 19 Oct 2019 16:40:45 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:40:45 main.py[line:158] INFO Iteration: 1600
+Sat, 19 Oct 2019 16:41:08 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:41:08 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:41:08 evaluate.py[line:95] INFO     Average ccuracy: 0.775
+Sat, 19 Oct 2019 16:41:08 main.py[line:185] INFO Train time: 37.213 s, validate time: 23.382 s
+Sat, 19 Oct 2019 16:41:45 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:41:45 main.py[line:158] INFO Iteration: 1800
+Sat, 19 Oct 2019 16:42:08 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:42:08 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:42:08 evaluate.py[line:95] INFO     Average ccuracy: 0.804
+Sat, 19 Oct 2019 16:42:08 main.py[line:185] INFO Train time: 36.881 s, validate time: 23.217 s
+Sat, 19 Oct 2019 16:42:46 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:42:46 main.py[line:158] INFO Iteration: 2000
+Sat, 19 Oct 2019 16:43:09 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:43:09 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:43:09 evaluate.py[line:95] INFO     Average ccuracy: 0.853
+Sat, 19 Oct 2019 16:43:09 main.py[line:185] INFO Train time: 37.503 s, validate time: 23.184 s
+Sat, 19 Oct 2019 16:43:09 main.py[line:200] INFO Model saved to ../checkpoints/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=none/Cnn_9layers_AvgPooling/2000_iterations.pth

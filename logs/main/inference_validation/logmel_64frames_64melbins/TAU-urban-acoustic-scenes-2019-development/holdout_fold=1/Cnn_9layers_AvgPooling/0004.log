@@ -1,0 +1,27 @@
+Sat, 19 Oct 2019 16:32:01 main.py[line:298] INFO Namespace(batch_size=32, cuda=True, data_type='development', dataset_dir='/data1/amey/ASR-data/', filename='main', holdout_fold='1', iteration=5000, mini_data=False, mode='inference_validation', model_type='Cnn_9layers_AvgPooling', subtask='a', visualize=False, workspace='../')
+Sat, 19 Oct 2019 16:32:11 data_generator.py[line:107] INFO Load data time: 6.247 s
+Sat, 19 Oct 2019 16:32:11 data_generator.py[line:108] INFO Training audio num: 9185
+Sat, 19 Oct 2019 16:32:11 data_generator.py[line:109] INFO Validation audio num: 4185
+Sat, 19 Oct 2019 16:32:25 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:32:25 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:32:25 evaluate.py[line:95] INFO     Average ccuracy: 0.696
+Sat, 19 Oct 2019 16:32:25 evaluate.py[line:104] INFO airport             0.534
+Sat, 19 Oct 2019 16:32:25 evaluate.py[line:104] INFO shopping_mall       0.757
+Sat, 19 Oct 2019 16:32:25 evaluate.py[line:104] INFO metro_station       0.669
+Sat, 19 Oct 2019 16:32:25 evaluate.py[line:104] INFO street_pedestrian   0.685
+Sat, 19 Oct 2019 16:32:25 evaluate.py[line:104] INFO public_square       0.517
+Sat, 19 Oct 2019 16:32:25 evaluate.py[line:104] INFO street_traffic      0.866
+Sat, 19 Oct 2019 16:32:25 evaluate.py[line:104] INFO tram                0.667
+Sat, 19 Oct 2019 16:32:25 evaluate.py[line:104] INFO bus                 0.718
+Sat, 19 Oct 2019 16:32:25 evaluate.py[line:104] INFO metro               0.716
+Sat, 19 Oct 2019 16:32:25 evaluate.py[line:104] INFO park                0.829
+Sat, 19 Oct 2019 16:32:25 evaluate.py[line:106] INFO [[225 124   7  51   9   5   0   0   0   0]
+ [ 42 334  14  49   2   0   0   0   0   0]
+ [  6  61 291  12  11   2  11  10  30   1]
+ [ 12  45  13 294  50   8   3   3   0   1]
+ [  5  20   5  79 200  45   6   2   0  25]
+ [  4   1   3   2  38 348   0   1   0   5]
+ [  0   3   8   2   0   0 291  72  60   0]
+ [  1   3   8   0   2   0  54 298  48   1]
+ [  0  11  47   2   1   0  26  36 310   0]
+ [  0   4   8   8  31  13   2   0   0 320]]

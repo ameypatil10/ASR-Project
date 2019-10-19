@@ -1,0 +1,7 @@
+Sat, 19 Oct 2019 15:15:46 main.py[line:102] INFO Namespace(batch_size=32, cuda=True, data_type='development', dataset_dir='../data/', filename='main', holdout_fold='none', mini_data=False, mode='train', model_type='Cnn_9layers_AvgPooling', subtask='a', workspace='../')
+Sat, 19 Oct 2019 15:15:46 main.py[line:105] INFO Using GPU.
+Sat, 19 Oct 2019 15:15:54 data_generator.py[line:107] INFO Load data time: 5.156 s
+Sat, 19 Oct 2019 15:15:54 data_generator.py[line:108] INFO Training audio num: 13370
+Sat, 19 Oct 2019 15:15:54 data_generator.py[line:109] INFO Validation audio num: 0
+Sat, 19 Oct 2019 15:15:54 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 15:15:54 main.py[line:158] INFO Iteration: 0

@@ -1,0 +1,270 @@
+Sat, 19 Oct 2019 16:06:08 main.py[line:102] INFO Namespace(batch_size=32, cuda=True, data_type='development', dataset_dir='/data1/amey/ASR-data/', filename='main', holdout_fold='1', mini_data=False, mode='train', model_type='Cnn_9layers_AvgPooling', subtask='a', workspace='../')
+Sat, 19 Oct 2019 16:06:08 main.py[line:105] INFO Using GPU.
+Sat, 19 Oct 2019 16:06:18 data_generator.py[line:107] INFO Load data time: 6.104 s
+Sat, 19 Oct 2019 16:06:18 data_generator.py[line:108] INFO Training audio num: 9185
+Sat, 19 Oct 2019 16:06:18 data_generator.py[line:109] INFO Validation audio num: 4185
+Sat, 19 Oct 2019 16:06:18 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:06:18 main.py[line:158] INFO Iteration: 0
+Sat, 19 Oct 2019 16:06:40 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:06:40 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:06:40 evaluate.py[line:95] INFO     Average ccuracy: 0.100
+Sat, 19 Oct 2019 16:06:47 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:06:47 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:06:47 evaluate.py[line:95] INFO     Average ccuracy: 0.100
+Sat, 19 Oct 2019 16:06:47 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:06:47 main.py[line:185] INFO Train time: 0.028 s, validate time: 28.459 s
+Sat, 19 Oct 2019 16:07:23 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:07:23 main.py[line:158] INFO Iteration: 200
+Sat, 19 Oct 2019 16:07:39 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:07:39 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:07:39 evaluate.py[line:95] INFO     Average ccuracy: 0.395
+Sat, 19 Oct 2019 16:07:46 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:07:46 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:07:46 evaluate.py[line:95] INFO     Average ccuracy: 0.398
+Sat, 19 Oct 2019 16:07:46 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:07:46 main.py[line:185] INFO Train time: 36.073 s, validate time: 22.989 s
+Sat, 19 Oct 2019 16:08:22 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:08:22 main.py[line:158] INFO Iteration: 400
+Sat, 19 Oct 2019 16:08:38 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:08:38 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:08:38 evaluate.py[line:95] INFO     Average ccuracy: 0.455
+Sat, 19 Oct 2019 16:08:45 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:08:45 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:08:45 evaluate.py[line:95] INFO     Average ccuracy: 0.438
+Sat, 19 Oct 2019 16:08:45 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:08:45 main.py[line:185] INFO Train time: 36.754 s, validate time: 22.852 s
+Sat, 19 Oct 2019 16:09:22 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:09:22 main.py[line:158] INFO Iteration: 600
+Sat, 19 Oct 2019 16:09:38 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:09:38 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:09:38 evaluate.py[line:95] INFO     Average ccuracy: 0.563
+Sat, 19 Oct 2019 16:09:45 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:09:45 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:09:45 evaluate.py[line:95] INFO     Average ccuracy: 0.522
+Sat, 19 Oct 2019 16:09:45 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:09:45 main.py[line:185] INFO Train time: 37.024 s, validate time: 23.127 s
+Sat, 19 Oct 2019 16:10:23 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:10:23 main.py[line:158] INFO Iteration: 800
+Sat, 19 Oct 2019 16:10:39 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:10:39 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:10:39 evaluate.py[line:95] INFO     Average ccuracy: 0.672
+Sat, 19 Oct 2019 16:10:46 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:10:46 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:10:46 evaluate.py[line:95] INFO     Average ccuracy: 0.574
+Sat, 19 Oct 2019 16:10:46 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:10:46 main.py[line:185] INFO Train time: 37.146 s, validate time: 23.097 s
+Sat, 19 Oct 2019 16:11:23 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:11:23 main.py[line:158] INFO Iteration: 1000
+Sat, 19 Oct 2019 16:11:39 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:11:39 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:11:39 evaluate.py[line:95] INFO     Average ccuracy: 0.677
+Sat, 19 Oct 2019 16:11:46 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:11:46 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:11:46 evaluate.py[line:95] INFO     Average ccuracy: 0.596
+Sat, 19 Oct 2019 16:11:46 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:11:46 main.py[line:185] INFO Train time: 37.034 s, validate time: 23.135 s
+Sat, 19 Oct 2019 16:11:46 main.py[line:200] INFO Model saved to ../checkpoints/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/1000_iterations.pth
+Sat, 19 Oct 2019 16:12:23 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:12:23 main.py[line:158] INFO Iteration: 1200
+Sat, 19 Oct 2019 16:12:39 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:12:39 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:12:39 evaluate.py[line:95] INFO     Average ccuracy: 0.734
+Sat, 19 Oct 2019 16:12:46 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:12:46 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:12:46 evaluate.py[line:95] INFO     Average ccuracy: 0.602
+Sat, 19 Oct 2019 16:12:46 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:12:46 main.py[line:185] INFO Train time: 37.382 s, validate time: 23.299 s
+Sat, 19 Oct 2019 16:13:24 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:13:24 main.py[line:158] INFO Iteration: 1400
+Sat, 19 Oct 2019 16:13:40 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:13:40 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:13:40 evaluate.py[line:95] INFO     Average ccuracy: 0.796
+Sat, 19 Oct 2019 16:13:47 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:13:47 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:13:47 evaluate.py[line:95] INFO     Average ccuracy: 0.641
+Sat, 19 Oct 2019 16:13:47 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:13:47 main.py[line:185] INFO Train time: 37.235 s, validate time: 23.263 s
+Sat, 19 Oct 2019 16:14:24 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:14:24 main.py[line:158] INFO Iteration: 1600
+Sat, 19 Oct 2019 16:14:40 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:14:40 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:14:40 evaluate.py[line:95] INFO     Average ccuracy: 0.782
+Sat, 19 Oct 2019 16:14:47 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:14:47 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:14:47 evaluate.py[line:95] INFO     Average ccuracy: 0.641
+Sat, 19 Oct 2019 16:14:47 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:14:47 main.py[line:185] INFO Train time: 36.930 s, validate time: 23.325 s
+Sat, 19 Oct 2019 16:15:24 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:15:24 main.py[line:158] INFO Iteration: 1800
+Sat, 19 Oct 2019 16:15:40 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:15:40 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:15:40 evaluate.py[line:95] INFO     Average ccuracy: 0.836
+Sat, 19 Oct 2019 16:15:48 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:15:48 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:15:48 evaluate.py[line:95] INFO     Average ccuracy: 0.653
+Sat, 19 Oct 2019 16:15:48 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:15:48 main.py[line:185] INFO Train time: 37.216 s, validate time: 23.297 s
+Sat, 19 Oct 2019 16:16:25 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:16:25 main.py[line:158] INFO Iteration: 2000
+Sat, 19 Oct 2019 16:16:41 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:16:41 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:16:41 evaluate.py[line:95] INFO     Average ccuracy: 0.828
+Sat, 19 Oct 2019 16:16:48 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:16:48 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:16:48 evaluate.py[line:95] INFO     Average ccuracy: 0.634
+Sat, 19 Oct 2019 16:16:48 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:16:48 main.py[line:185] INFO Train time: 37.510 s, validate time: 23.242 s
+Sat, 19 Oct 2019 16:16:49 main.py[line:200] INFO Model saved to ../checkpoints/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/2000_iterations.pth
+Sat, 19 Oct 2019 16:17:26 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:17:26 main.py[line:158] INFO Iteration: 2200
+Sat, 19 Oct 2019 16:17:42 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:17:42 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:17:42 evaluate.py[line:95] INFO     Average ccuracy: 0.855
+Sat, 19 Oct 2019 16:17:49 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:17:49 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:17:49 evaluate.py[line:95] INFO     Average ccuracy: 0.659
+Sat, 19 Oct 2019 16:17:49 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:17:49 main.py[line:185] INFO Train time: 37.571 s, validate time: 23.177 s
+Sat, 19 Oct 2019 16:18:26 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:18:26 main.py[line:158] INFO Iteration: 2400
+Sat, 19 Oct 2019 16:18:42 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:18:42 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:18:42 evaluate.py[line:95] INFO     Average ccuracy: 0.888
+Sat, 19 Oct 2019 16:18:50 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:18:50 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:18:50 evaluate.py[line:95] INFO     Average ccuracy: 0.648
+Sat, 19 Oct 2019 16:18:50 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:18:50 main.py[line:185] INFO Train time: 37.104 s, validate time: 23.429 s
+Sat, 19 Oct 2019 16:19:27 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:19:27 main.py[line:158] INFO Iteration: 2600
+Sat, 19 Oct 2019 16:19:43 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:19:43 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:19:43 evaluate.py[line:95] INFO     Average ccuracy: 0.875
+Sat, 19 Oct 2019 16:19:50 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:19:50 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:19:50 evaluate.py[line:95] INFO     Average ccuracy: 0.651
+Sat, 19 Oct 2019 16:19:50 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:19:50 main.py[line:185] INFO Train time: 37.284 s, validate time: 23.369 s
+Sat, 19 Oct 2019 16:20:28 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:20:28 main.py[line:158] INFO Iteration: 2800
+Sat, 19 Oct 2019 16:20:44 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:20:44 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:20:44 evaluate.py[line:95] INFO     Average ccuracy: 0.913
+Sat, 19 Oct 2019 16:20:51 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:20:51 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:20:51 evaluate.py[line:95] INFO     Average ccuracy: 0.672
+Sat, 19 Oct 2019 16:20:51 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:20:51 main.py[line:185] INFO Train time: 37.435 s, validate time: 23.414 s
+Sat, 19 Oct 2019 16:21:28 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:21:28 main.py[line:158] INFO Iteration: 3000
+Sat, 19 Oct 2019 16:21:44 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:21:44 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:21:44 evaluate.py[line:95] INFO     Average ccuracy: 0.941
+Sat, 19 Oct 2019 16:21:52 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:21:52 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:21:52 evaluate.py[line:95] INFO     Average ccuracy: 0.696
+Sat, 19 Oct 2019 16:21:52 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:21:52 main.py[line:185] INFO Train time: 37.027 s, validate time: 23.218 s
+Sat, 19 Oct 2019 16:21:52 main.py[line:200] INFO Model saved to ../checkpoints/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/3000_iterations.pth
+Sat, 19 Oct 2019 16:22:28 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:22:28 main.py[line:158] INFO Iteration: 3200
+Sat, 19 Oct 2019 16:22:45 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:22:45 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:22:45 evaluate.py[line:95] INFO     Average ccuracy: 0.925
+Sat, 19 Oct 2019 16:22:52 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:22:52 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:22:52 evaluate.py[line:95] INFO     Average ccuracy: 0.655
+Sat, 19 Oct 2019 16:22:52 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:22:52 main.py[line:185] INFO Train time: 36.901 s, validate time: 23.420 s
+Sat, 19 Oct 2019 16:23:29 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:23:29 main.py[line:158] INFO Iteration: 3400
+Sat, 19 Oct 2019 16:23:45 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:23:45 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:23:45 evaluate.py[line:95] INFO     Average ccuracy: 0.964
+Sat, 19 Oct 2019 16:23:52 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:23:52 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:23:52 evaluate.py[line:95] INFO     Average ccuracy: 0.686
+Sat, 19 Oct 2019 16:23:52 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:23:52 main.py[line:185] INFO Train time: 37.527 s, validate time: 22.912 s
+Sat, 19 Oct 2019 16:24:30 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:24:30 main.py[line:158] INFO Iteration: 3600
+Sat, 19 Oct 2019 16:24:46 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:24:46 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:24:46 evaluate.py[line:95] INFO     Average ccuracy: 0.963
+Sat, 19 Oct 2019 16:24:53 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:24:53 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:24:53 evaluate.py[line:95] INFO     Average ccuracy: 0.679
+Sat, 19 Oct 2019 16:24:53 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:24:53 main.py[line:185] INFO Train time: 37.314 s, validate time: 23.444 s
+Sat, 19 Oct 2019 16:25:30 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:25:30 main.py[line:158] INFO Iteration: 3800
+Sat, 19 Oct 2019 16:25:46 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:25:46 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:25:46 evaluate.py[line:95] INFO     Average ccuracy: 0.974
+Sat, 19 Oct 2019 16:25:53 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:25:53 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:25:53 evaluate.py[line:95] INFO     Average ccuracy: 0.689
+Sat, 19 Oct 2019 16:25:53 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:25:53 main.py[line:185] INFO Train time: 37.173 s, validate time: 23.238 s
+Sat, 19 Oct 2019 16:26:31 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:26:31 main.py[line:158] INFO Iteration: 4000
+Sat, 19 Oct 2019 16:26:47 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:26:47 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:26:47 evaluate.py[line:95] INFO     Average ccuracy: 0.982
+Sat, 19 Oct 2019 16:26:54 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:26:54 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:26:54 evaluate.py[line:95] INFO     Average ccuracy: 0.690
+Sat, 19 Oct 2019 16:26:54 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:26:54 main.py[line:185] INFO Train time: 37.084 s, validate time: 23.258 s
+Sat, 19 Oct 2019 16:26:54 main.py[line:200] INFO Model saved to ../checkpoints/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/4000_iterations.pth
+Sat, 19 Oct 2019 16:27:31 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:27:31 main.py[line:158] INFO Iteration: 4200
+Sat, 19 Oct 2019 16:27:47 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:27:47 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:27:47 evaluate.py[line:95] INFO     Average ccuracy: 0.987
+Sat, 19 Oct 2019 16:27:54 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:27:54 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:27:54 evaluate.py[line:95] INFO     Average ccuracy: 0.685
+Sat, 19 Oct 2019 16:27:54 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:27:54 main.py[line:185] INFO Train time: 37.492 s, validate time: 23.084 s
+Sat, 19 Oct 2019 16:28:31 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:28:31 main.py[line:158] INFO Iteration: 4400
+Sat, 19 Oct 2019 16:28:47 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:28:47 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:28:47 evaluate.py[line:95] INFO     Average ccuracy: 0.989
+Sat, 19 Oct 2019 16:28:55 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:28:55 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:28:55 evaluate.py[line:95] INFO     Average ccuracy: 0.687
+Sat, 19 Oct 2019 16:28:55 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:28:55 main.py[line:185] INFO Train time: 36.984 s, validate time: 23.260 s
+Sat, 19 Oct 2019 16:29:32 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:29:32 main.py[line:158] INFO Iteration: 4600
+Sat, 19 Oct 2019 16:29:48 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:29:48 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:29:48 evaluate.py[line:95] INFO     Average ccuracy: 0.992
+Sat, 19 Oct 2019 16:29:55 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:29:55 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:29:55 evaluate.py[line:95] INFO     Average ccuracy: 0.695
+Sat, 19 Oct 2019 16:29:55 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:29:55 main.py[line:185] INFO Train time: 37.459 s, validate time: 23.159 s
+Sat, 19 Oct 2019 16:30:33 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:30:33 main.py[line:158] INFO Iteration: 4800
+Sat, 19 Oct 2019 16:30:48 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:30:48 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:30:48 evaluate.py[line:95] INFO     Average ccuracy: 0.994
+Sat, 19 Oct 2019 16:30:56 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:30:56 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:30:56 evaluate.py[line:95] INFO     Average ccuracy: 0.701
+Sat, 19 Oct 2019 16:30:56 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:30:56 main.py[line:185] INFO Train time: 37.326 s, validate time: 22.984 s
+Sat, 19 Oct 2019 16:31:33 main.py[line:157] INFO ------------------------------------
+Sat, 19 Oct 2019 16:31:33 main.py[line:158] INFO Iteration: 5000
+Sat, 19 Oct 2019 16:31:49 evaluate.py[line:91] INFO Data type: train
+Sat, 19 Oct 2019 16:31:49 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:31:49 evaluate.py[line:95] INFO     Average ccuracy: 0.993
+Sat, 19 Oct 2019 16:31:56 evaluate.py[line:91] INFO Data type: validate
+Sat, 19 Oct 2019 16:31:56 evaluate.py[line:92] INFO     Source: a
+Sat, 19 Oct 2019 16:31:56 evaluate.py[line:95] INFO     Average ccuracy: 0.696
+Sat, 19 Oct 2019 16:31:56 evaluate.py[line:202] INFO     Dump statistics to ../statistics/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/validate_statistics.pickle
+Sat, 19 Oct 2019 16:31:56 main.py[line:185] INFO Train time: 36.995 s, validate time: 23.403 s
+Sat, 19 Oct 2019 16:31:56 main.py[line:200] INFO Model saved to ../checkpoints/main/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-development/holdout_fold=1/Cnn_9layers_AvgPooling/5000_iterations.pth

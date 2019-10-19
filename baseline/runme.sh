@@ -1,9 +1,9 @@
 #!/bin/bash
 # You need to modify this path to your downloaded dataset directory
-DATASET_DIR='../data/'
+DATASET_DIR='/data1/amey/ASR-data/'
 
 # You need to modify this path to your workspace to store features and models
-WORKSPACE='/vol/vssp/msos/qk/workspaces/dcase2019_task1'
+WORKSPACE='../'
 
 # Hyper-parameters
 GPU_ID=0
@@ -12,12 +12,12 @@ BATCH_SIZE=32
 
 ############ Train and validate on development dataset ############
 # Calculate feature
-python3 utils/features.py calculate_feature_for_all_audio_files --dataset_dir=$DATASET_DIR --subtask='a' --data_type='development' --workspace=$WORKSPACE
+# python3 utils/features.py calculate_feature_for_all_audio_files --dataset_dir=$DATASET_DIR --subtask='a' --data_type='development' --workspace=$WORKSPACE
 # python3 utils/features.py calculate_feature_for_all_audio_files --dataset_dir=$DATASET_DIR --subtask='b' --data_type='development' --workspace=$WORKSPACE
 # python3 utils/features.py calculate_feature_for_all_audio_files --dataset_dir=$DATASET_DIR --subtask='c' --data_type='development' --workspace=$WORKSPACE
 
 # Calculate scalar
-python3 utils/features.py calculate_scalar --subtask='a' --data_type='development' --workspace=$WORKSPACE
+# python3 utils/features.py calculate_scalar --subtask='a' --data_type='development' --workspace=$WORKSPACE
 # python3 utils/features.py calculate_scalar --subtask='b' --data_type='development' --workspace=$WORKSPACE
 # python3 utils/features.py calculate_scalar --subtask='c' --data_type='development' --workspace=$WORKSPACE
 
@@ -42,7 +42,7 @@ python3 utils/plot_results.py --workspace=$WORKSPACE --subtask=a
 ############ Train on full data without validation, inference on leaderboard and evaluation data ############
 
 # Extract features for leaderboard data
-python3 utils/features.py calculate_feature_for_all_audio_files --dataset_dir=$DATASET_DIR --subtask='a' --data_type='leaderboard' --workspace=$WORKSPACE
+# python3 utils/features.py calculate_feature_for_all_audio_files --dataset_dir=$DATASET_DIR --subtask='a' --data_type='leaderboard' --workspace=$WORKSPACE
 # python3 utils/features.py calculate_feature_for_all_audio_files --dataset_dir=$DATASET_DIR --subtask='b' --data_type='leaderboard' --workspace=$WORKSPACE
 # python3 utils/features.py calculate_feature_for_all_audio_files --dataset_dir=$DATASET_DIR --subtask='c' --data_type='leaderboard' --workspace=$WORKSPACE
 

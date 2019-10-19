@@ -1,0 +1,2 @@
+Sat, 19 Oct 2019 22:38:03 main.py[line:413] INFO Namespace(batch_size=32, cuda=True, data_type='leaderboard', filename='main', iteration=5000, mini_data=False, mode='inference_evaluation', model_type='Cnn_9layers_AvgPooling', subtask='a', workspace='../')
+Sat, 19 Oct 2019 22:38:21 utilities.py[line:197] INFO Write submission to ../submissions/logmel_64frames_64melbins/TAU-urban-acoustic-scenes-2019-leaderboard/holdout_fold=none/Cnn_9layers_AvgPooling/5000_iterations/submission.csv
