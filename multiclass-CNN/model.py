@@ -8,21 +8,60 @@ from torchvision import datasets, transforms, models
 from collections import OrderedDict
 import torchvision
 from resnext import resnext101_64x4d
+from vgg import vggm
 
 from hparams import hparams
+
+# class Discriminator(nn.Module):
+#     def __init__(self):
+#         super(Discriminator, self).__init__()
+#         self.model = models.densenet121(pretrained=False, progress=True)
+#         num_ftrs = self.model.classifier.in_features
+#         self.model.classifier = nn.Sequential(
+#                                     nn.Linear(num_ftrs, hparams.num_classes, bias=True),
+#                                     )
+#
+#     def forward(self, x):
+#         x = self.model(x)
+#         return x
+#
+# class Discriminator(nn.Module):
+#     def __init__(self):
+#         super(Discriminator, self).__init__()
+#         self.model = models.vgg16(pretrained=False, progress=True)
+#         num_ftrs = self.model.classifier[6].in_features
+#         self.model.classifier[6] = nn.Sequential(
+#                                     nn.Linear(num_ftrs, hparams.num_classes, bias=True),
+#                                     )
+#
+#     def forward(self, x):
+#         x = self.model(x)
+#         return x
 
 class Discriminator(nn.Module):
     def __init__(self):
         super(Discriminator, self).__init__()
-        self.model = models.densenet121(pretrained=False, progress=True)
-        num_ftrs = self.model.classifier.in_features
-        self.model.classifier = nn.Sequential(
-                                    nn.Linear(num_ftrs, hparams.num_classes, bias=True),
-                                    )
+        self.model = vggm(num_classes=hparams.num_classes, pretrained=None)
 
     def forward(self, x):
         x = self.model(x)
         return x
+
+
+# class Discriminator(nn.Module):
+#     def __init__(self):
+#         super(Discriminator, self).__init__()
+#         self.model = models.resnet18(pretrained=False, progress=True)
+#         # num_ftrs = self.model.classifier[6].in_features
+#         # self.model.classifier[6] = nn.Sequential(
+#         #                             nn.Linear(num_ftrs, hparams.num_classes, bias=True),
+#         #                             )
+#         num_ftrs = self.model.fc.in_features
+#         self.model.fc = nn.Linear(num_ftrs, hparams.num_classes)
+#
+#     def forward(self, x):
+#         x = self.model(x)
+#         return x
 
 #
 # class ConvBlock(nn.Module):

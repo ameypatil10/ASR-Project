@@ -51,20 +51,21 @@ class Hparams():
             9: 'park',
         }
 
+        self.class_to_id = { self.id_to_class[idx]: idx for idx in range(10) }
 
         """
         Training parameters
         """
 
-        self.gpu_device = torch.device("cuda:5" if torch.cuda.is_available() else "cpu")
-        self.device_ids = [5]
+        self.gpu_device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+        self.device_ids = [0]
 
         self.pretrained = False
 
         self.thresh = 0.5
         self.repeat_infer = 1
 
-        self.num_epochs = 100
+        self.num_epochs = 200
         self.batch_size = 16
 
         self.learning_rate = 0.00001
@@ -77,8 +78,8 @@ class Hparams():
         self.print_interval = 1000
 
         ################################################################################################################################################
-        self.exp_name = 'multiclass-CNN-densenet/'
-        self.dim3 = True
+        self.exp_name = 'multiclass-CNN-vggm-1/'
+        self.dim3 = False
         ################################################################################################################################################
 
         self.result_dir = '../results/'+self.exp_name

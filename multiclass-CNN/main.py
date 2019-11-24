@@ -15,4 +15,4 @@ if args.mode == 'train':
     train()
 
 if args.mode == 'test':
-    auc = test(hparams.model+'.best', data=(hparams.valid_csv, hparams.dev_file), plot_auc='test', plot_path=hparams.result_dir+'test')
+    auc = test(hparams.model+'.best', data=(hparams.valid_csv, hparams.dev_file), plot_auc='valid', plot_path=hparams.result_dir+'valid')

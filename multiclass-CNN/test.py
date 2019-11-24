@@ -42,7 +42,7 @@ def plot_cf(cf):
 
 def test(model_path, data=(hparams.valid_csv, hparams.dev_file), plot_auc='valid', plot_path=hparams.result_dir+'valid', best_thresh=None):
 
-    test_dataset = AudioData(data_csv=data[0], data_file=data[1], ds_type='valid',
+    test_dataset = AudioData(data_csv=data[0], data_file=data[1], ds_type='valid', augment=True,
                         transform=transforms.Compose([
                             transforms.ToTensor(),
                         ]))

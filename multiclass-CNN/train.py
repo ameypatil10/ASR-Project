@@ -50,12 +50,12 @@ def train(resume=False):
     for k in hparams.__dict__.keys():
         writer.add_text(str(k), str(hparams.__dict__[k]))
 
-    train_dataset = AudioData(data_csv=hparams.train_csv, data_file=hparams.dev_file, ds_type='train',
+    train_dataset = AudioData(data_csv=hparams.train_csv, data_file=hparams.dev_file, ds_type='train',# augment=False,
                         transform=transforms.Compose([
                             transforms.ToTensor(),
                         ]))
 
-    validation_dataset = AudioData(data_csv=hparams.valid_csv, data_file=hparams.dev_file, ds_type='valid',
+    validation_dataset = AudioData(data_csv=hparams.valid_csv, data_file=hparams.dev_file, ds_type='valid', augment=False,
                         transform=transforms.Compose([
                             transforms.ToTensor(),
                         ]))
@@ -127,6 +127,8 @@ def train(resume=False):
 
     # print(model)
     for epoch in range(hparams.num_epochs):
+        train_logits = []
+        train_labels = []
         for batch, (inp, labels, imgs_name) in enumerate(tqdm(train_loader)):
 
             inp = Variable(inp.float(), requires_grad=False)
@@ -145,6 +147,8 @@ def train(resume=False):
             optimizer_D.zero_grad()
 
             pred_logits = discriminator(inp)
+            train_logits.append(pred_logits)
+            train_labels.append(labels)
 
             d_loss = adversarial_loss(pred_logits, labels)
 
@@ -161,6 +165,11 @@ def train(resume=False):
             #     format(1.0*epoch, 100.0*batch/len(train_loader), d_loss.item(), acc['avg'], f1[hparams.avg_mode], auc[hparams.avg_mode]))
 
         (val_auc, val_f1, val_acc, val_conf_mat), val_loss = validation(discriminator, epoch=epoch)
+
+        train_logits = torch.cat(train_logits, dim=0)
+        train_labels = torch.cat(train_labels, dim=0)
+
+        train_auc, train_f1, train_acc, train_conf_mat = accuracy_metrics(train_labels.long(), train_logits)
 
         fig = plot_cf(val_conf_mat)
         writer.add_figure('val_conf', fig, global_step=epoch)
@@ -197,6 +206,6 @@ def train(resume=False):
                 }, hparams.model+'.best')
             print('best model on validation set saved.')
 
-        print('[Epoch - {0:.1f} ---> val_auc - {1:.4f}, current_lr - {2:.6f}, val_loss - {3:.4f}, best_val_acc - {4:.4f}, val_acc - {5:.4f}, val_f1 - {6:.4f}] - time - {7:.1f}'\
-            .format(1.0*epoch, val_auc[hparams.avg_mode], optimizer_D.param_groups[0]['lr'], val_loss, best_valid_acc, val_acc['avg'], val_f1[hparams.avg_mode], time.time()-start_time))
+        print('[Epoch - {0:.1f} ---> train_acc - {1:.4f}, current_lr - {2:.6f}, val_loss - {3:.4f}, best_val_acc - {4:.4f}, val_acc - {5:.4f}, val_f1 - {6:.4f}] - time - {7:.1f}'\
+            .format(1.0*epoch, train_acc['avg'], optimizer_D.param_groups[0]['lr'], val_loss, best_valid_acc, val_acc['avg'], val_f1[hparams.avg_mode], time.time()-start_time))
         start_time = time.time()
